@@ -1,0 +1,111 @@
+*{
+	margin:0px auto;
+}
+body{
+	margin:0px;
+	padding:0px;
+}
+.body{
+	height:auto;
+	width:100%;
+	background-color:#F00;
+}
+header h1{
+	text-align:center;
+	font-family:Papyrus;
+	color:#FFF;
+	padding:20px;
+	font-size:40pt;
+}
+.cont{
+	height:800px;
+	width:90%;
+	margin:10px 5%;
+}
+.cont h1{
+	color:#FFF;
+}
+.cont p{
+	color:#FFF;
+	font-family:arial;
+	font-size:17pt;
+	padding:10px;
+	text-align:center;
+}
+.top{
+	height:50px;
+	width:125px;
+	background-color:#F00;
+	float:right;
+	margin:-50px 10px 10px 0px;
+}
+.top a{
+	line-height:50px;
+	text-decoration:none;
+	padding:0px 7px;
+	color:#FFF;
+}
+.bottom{
+	height:50px;
+	width:100px;
+	background-color:#F00;
+	float:right;
+	margin:10px 10px 0px 0px;
+}
+.bottom a{
+	line-height:50px;
+	text-decoration:none;
+	padding:0px 7px;
+	color:#FFF;
+}
+footer{
+	height:240px;
+	width:100%;
+	background-color:#000;
+	clear:both;
+}
+footer h1{
+	text-align:center;
+	text-decoration:none;
+	color:#FFF;
+	font-size:17pt;
+}
+footer h1 a{
+	text-decoration:none;
+	color:#FFF;
+	font-size:17pt;
+}
+.form{
+	height:500px;
+	width:30%;
+	float:left;
+	margin:0px 500px;
+}
+.form input{
+	height:40px;
+	width:375px;
+}
+.form label{
+	color:#FFF;
+	padding-left:105px;
+	font-family:arial;
+	font-size:28pt;
+}
+.Loct{
+	height:200px;
+	width:90%;
+	margin:10px 5%;
+}
+.Loct h1{
+	color:#FFF;
+	font-family:arial;
+	font-size:17pt;
+	padding:10px;
+	text-align:center;
+}
+@media only screen and (max-width:768px)
+{
+	.form {
+   		margin:0px 196px;
+	}
+}

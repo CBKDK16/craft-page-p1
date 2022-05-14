@@ -1,0 +1,179 @@
+*{
+	margin:0px auto;
+}
+body{
+	margin:0px;
+	padding:0px;
+}
+.body{
+	height:auto;
+	width:100%;
+	background-color:#F00;
+}
+header h1{
+	text-align:center;
+	font-family:Papyrus;
+	color:#FFF;
+	padding:20px;
+	font-size:40pt;
+}
+.top{
+	height:50px;
+	width:125px;
+	background-color:#F00;
+	float:right;
+	margin:-50px 10px 10px 0px;
+}
+.top a{
+	line-height:50px;
+	text-decoration:none;
+	padding:0px 7px;
+	color:#FFF;
+}
+.bottom{
+	height:50px;
+	width:100px;
+	background-color:#F00;
+	float:right;
+	margin:10px 10px 0px 0px;
+}
+.bottom a{
+	line-height:50px;
+	text-decoration:none;
+	padding:0px 7px;
+	color:#FFF;
+}
+.img{
+	margin:20px 10px 10px 5%;
+	height:500px;
+	width:30%;
+	border:#FFF groove 10px;
+	float:left;
+}
+.img img{
+	height:500px;
+	width:100%;
+}
+.form{
+	margin:20px 10px;
+	height:500px;
+	width:30%;
+	float:left;
+}
+.form input{
+	height:40px;
+	width:375px;
+}
+.form label{
+	color:#FFF;
+	padding-left:105px;
+	font-family:arial;
+	font-size:28pt;
+}
+.ac{
+	height:100px;
+	width:90%;
+	background-color:#FFF;
+	margin:70px 0px 0px -11px;
+}
+.ac h1{
+	line-height:100px;
+	color:#F00;
+	text-align:center;
+}
+.ac h1 a{
+	text-decoration:none;
+	color:#F00;
+}
+
+.img{
+	margin:20px 5% 10px 10px;
+	height:500px;
+	width:27%;
+	border:#FFF groove 10px;
+	float:left;
+}
+.img img{
+	height:500px;
+	width:100%;
+}
+footer{
+	height:240px;
+	width:100%;
+	background-color:#000;
+	clear:both;
+}
+footer h1{
+	text-align:center;
+	text-decoration:none;
+	color:#FFF;
+	font-size:17pt;
+}
+footer h1 a{
+	text-decoration:none;
+	color:#FFF;
+	font-size:17pt;
+}
+@media only  screen and (max-width:768px)
+{
+	.img{
+	height:288px;
+	}
+	.img img{
+		height:288px;
+	}
+	.form label {
+    padding-left: 77px;
+    font-size: 10pt;
+	}
+	.form input {
+    width: 214px;
+	}
+	.ac h1 a {
+    font-size: 25px;
+	}
+	.ac {
+    height: 89px;
+    width: 105%;
+    background-color: #FFF;
+    margin: 4px 0px 0px -11px;
+	}
+	.ac h1 {
+    line-height: 89px;
+	}
+	.img{
+		margin:13px;
+	}
+	.form {
+    height: 300px;
+	}
+}
+@media only  screen and (max-width:480px)
+{
+	.img{
+	height:288px;
+	width:272px;
+	}
+	.img img{
+		height:288px;
+	}
+	.form label {
+    padding-left: 31px;
+    font-size: 10pt;
+	}
+	.form input {
+    width: 121px;
+	}
+	.form{
+	margin:10px 0px 0px 88px;
+	}
+	.ac {
+    height: 75px;
+    width: 156%;
+	}
+	.ac h1 a {
+    font-size: 16px;
+	}
+	.ac h1{
+    line-height: 75px;
+	}

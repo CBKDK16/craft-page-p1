@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home\Log in</title>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/> 
+<script src="js/jquery-2.2.4.js"></script>
+<link href="Css/Log in.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+	var images=new Array('images/1.png','images/20170731_121331.png','images/FB_IMG_14673402148801418.jpg','images/FB_IMG_14743891049200191 (1).jpg','images/FB_IMG_15012130493613512.jpg','images/FB_IMG_14844019473869466.jpg');
+	var i=0;
+	function change_image()
+	{
+		if(i>5)
+		{
+			i=0;
+			img.src=images[i];
+			i++;
+		}
+		else
+		{
+			img.src=images[i];
+			i++;
+		}
+	}
+	setInterval("change_image()",1000);
+</script>
+</head>
+<body>
+	<div class="body">
+    	<header>
+    <h1> Log In</h1>
+    <div class="top">
+                	<a name="Top"></a>
+                	<a href="#Bottom">Go to Bottom</a>
+     </div>
+    </header>
+        <hr color="#FFFFFF" width="100%" size="5px"/>
+     <div class="img">
+     	<img src="images/FB_IMG_14844019473869466.jpg" id="img"/>
+     </div>
+     	<form name="my from" class="form">
+        	<label>User Name</label><br/><input type="text" placeholder="abc12Gmail.com"/><br/>
+            <label>Password</label><br/><input type="Password" placeholder="Password"/><br/>
+            <input type="submit" value="Submit"/>
+            <input type="reset" value="Cancel"/>
+            <div class="ac">
+        	<H1><a href="#">Create an Account</a></H1>
+        </div>
+        </form>
+     <div class="img">
+     	<img src="images/FB_IMG_14844019473869466.jpg" id="img"/>
+     </div>
+     <footer>
+        	<h1> <a href="Html.html"> Home</a><br/>
+            <a href="Gallery.html">Gallery</a><br/>
+            <a href="About us.html"> About Us</a><br/>
+            <a href="Contact us.html">Contact Us</a><br/>
+            </h1>
+            <h1><a href="#">Help</a></h1><br/>
+            <h1>&copy;2017</h1>
+            <div class="bottom">
+    		<a name="Bottom"></a>
+    		<a href="#Top">Go to top</a>
+    </div>
+        </footer>
+    </div>
+</body>
+</html>

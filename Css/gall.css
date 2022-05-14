@@ -1,0 +1,129 @@
+*{
+	margin:0px auto;
+}
+body{
+	margin:0px;
+	padding:0px;
+}
+.body{
+	height:auto;
+	width:100%;
+	background-color:#F00;
+}
+header h1{
+	text-align:center;
+	font-family:Papyrus;
+	color:#FFF;
+	padding:20px;
+	font-size:40pt;
+}
+.top{
+	height:50px;
+	width:125px;
+	background-color:#F00;
+	float:right;
+	margin:70px 10px 10px 0px;
+}
+.top a{
+	line-height:50px;
+	text-decoration:none;
+	padding:0px 7px;
+	color:#FFF;
+}
+.bottom{
+	height:50px;
+	width:100px;
+	background-color:#F00;
+	float:right;
+	margin:10px 10px 0px 0px;
+}
+.bottom a{
+	line-height:50px;
+	text-decoration:none;
+	padding:0px 7px;
+	color:#FFF;
+}
+figure{
+	width:90%;
+	height:auto;
+	background-color:#FFF;
+	margin:5%;
+}
+.height img{
+	height:300px;
+	width:200px;
+	float:left;
+	margin:10px;
+}
+.width img{
+	height:300px;
+	width:400px;
+	float:left;
+	margin:10px;
+}
+.equl img{
+	height:300px;
+	width:300px;
+	float:left;
+	margin:10px;
+}
+.to{
+	height:auto;
+	width:100%;
+	overflow:hidden;
+	display:none;
+	float:none;
+}
+footer{
+	height:200px;
+	width:100%;
+	background-color:#000;
+}
+footer h1{
+	text-align:center;
+	text-decoration:none;
+	color:#FFF;
+	font-size:17pt;
+}
+footer h1 a{
+	text-decoration:none;
+	color:#FFF;
+	font-size:17pt;
+}
+input{
+	margin-left:500px;
+}
+@media only  screen and (max-width:480px)
+{
+	header h1 {
+    font-size: 13pt;
+	}
+	.top{
+		margin:27px 10px;
+		height:30px;
+		width:85px;
+	}
+	.top a {
+    	line-height: 30px;
+		font-size:12px;
+		padding:0px 2px;
+	}
+	.equl img {
+    	height: 269px;
+    	width: 269px;
+	}
+	.width img {
+    	height: 189px;
+    	width: 265px;
+	}
+	.bottom{
+		margin:4px 7px;
+		height:18px;
+		width:65px;
+	}
+	.bottom a {
+    	line-height:18px;
+		font-size:9px;
+	}
+
+}
